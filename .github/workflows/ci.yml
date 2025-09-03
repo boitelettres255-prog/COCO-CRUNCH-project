@@ -28,8 +28,8 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew build
 
-    - name: debug
-      run: ls build*/
+    - name: debug 2
+      run: ls build/*
 
     - name: Build and Push Docker Image
       uses: mr-smithers-excellent/docker-build-push@v4
